@@ -10,11 +10,6 @@ namespace Freshprints.Controllers
     [Authorize]
     public class Orders : Controller
     {
-        // GET
-        public IActionResult Index(int itemId)
-        {
-            return Ok("aha" + itemId);
-        }    
         
         //GET api/orders/:id
         // particular order of a user
@@ -22,6 +17,10 @@ namespace Freshprints.Controllers
         public ActionResult<IEnumerable> GetAllOrders(string userName, int id)
         {
             var orders = OrderItemMockRepository.GetAllOrders(userName, id);
+            if (orders == null)
+            {
+                return NotFound("User Not Found");
+            }
             return Ok(orders);
         }
         
@@ -32,6 +31,10 @@ namespace Freshprints.Controllers
         public ActionResult<IEnumerable> GetAllOrders(string userName)
         {
             var orders = OrderItemMockRepository.GetAllOrders(userName);
+            if (orders == null)
+            {
+                return NotFound("User Not Found");
+            }
             return Ok(orders);
         }
         

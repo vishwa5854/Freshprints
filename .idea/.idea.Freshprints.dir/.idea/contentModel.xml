@@ -6,6 +6,7 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Controllers" t="Include">
         <e p="Auth.cs" t="Include" />
+        <e p="Index.cs" t="Include" />
         <e p="Items.cs" t="Include" />
         <e p="Orders.cs" t="Include" />
       </e>

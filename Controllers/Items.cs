@@ -25,7 +25,12 @@ namespace Freshprints.Controllers
         [HttpGet("{id}")]
         public ActionResult<Item> GetCommandById(int id)
         {
+            if (ItemsMockRepository.GetItemById(id) == null)
+            {
+                return NotFound("Item Not Found");
+            }
             return Ok(ItemsMockRepository.GetItemById(id));
+            
         }
         
     }
