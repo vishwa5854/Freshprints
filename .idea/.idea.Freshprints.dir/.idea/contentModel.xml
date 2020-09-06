@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_.19.01" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\vishw\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\vishw\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\vishw\RiderProjects\Freshprints" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="Auth.cs" t="Include" />
         <e p="Index.cs" t="Include" />
@@ -25,14 +28,6 @@
         <e p="IJwtAuthenticationManager.cs" t="Include" />
         <e p="JwtAuthenticationManager.cs" t="Include" />
       </e>
-      <e p="Program.cs" t="Include" />
-      <e p="Properties" t="Include">
-        <e p="launchSettings.json" t="Include" />
-      </e>
-      <e p="Startup.cs" t="Include" />
-      <e p="appsettings.Development.json" t="Include" />
-      <e p="appsettings.json" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
@@ -41,6 +36,11 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
     </e>
   </component>
 </project>

@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using Freshprints.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Freshprints.Controllers
 {
@@ -15,7 +14,7 @@ namespace Freshprints.Controllers
         
         //GET api/items/
         [HttpGet]
-        public ActionResult<IEnumerable<DbLoggerCategory.Database.Command>> GetAllCommands()
+        public ActionResult<IEnumerable<Item>> GetAllCommands()
         {
             var items = ItemsMockRepository.GetAllItems();
             return Ok(items);

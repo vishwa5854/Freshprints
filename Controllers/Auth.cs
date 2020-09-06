@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Freshprints.Data;
@@ -92,8 +91,6 @@ namespace Freshprints.Controllers
             }
 
         }
-         
-//TODO validate pwd
     }
     
 }

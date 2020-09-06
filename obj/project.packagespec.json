@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/vishwanath/RiderProjects/Freshprints/Freshprints.csproj",
+    "projectUniqueName": "C:\\Users\\vishw\\RiderProjects\\Freshprints\\Freshprints.csproj",
     "projectName": "Freshprints",
-    "projectPath": "/home/vishwanath/RiderProjects/Freshprints/Freshprints.csproj",
-    "outputPath": "/home/vishwanath/RiderProjects/Freshprints/obj/",
+    "projectPath": "C:\\Users\\vishw\\RiderProjects\\Freshprints\\Freshprints.csproj",
+    "outputPath": "C:\\Users\\vishw\\RiderProjects\\Freshprints\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -67,7 +67,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Users\\vishw\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
     }
   }
 }
